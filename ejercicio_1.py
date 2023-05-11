@@ -5,7 +5,6 @@ def read_csv(file_name):
   result = []
   with open(file_name) as file:
       reader = csv.reader(file)
-      array = np.array(reader)
       for i in reader:
         result.append(i)
 
@@ -15,4 +14,4 @@ def read_csv(file_name):
   return result_float
 
 C1csv = read_csv("C1.csv")
-
+print(C1csv)
