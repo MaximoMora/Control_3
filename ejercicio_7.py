@@ -9,8 +9,8 @@ C1C2_row_sort = ord_burbuja(C1C2_row) #El promedio ordenado de las filas
 C1C2_column_sort = ord_burbuja(C1C2_column) #El promedio ordenado de las columnas
 
 
-Show_Bar(C1C2_row.values(),"Filas") #Grafico del promedio de las filas 
-Show_Bar(C1C2_column.values(),"Columna") #Grafico del promedio de las columnas 
-Show_Bar(C1C2_row_sort.values(),"Filas") #Grafico del promedio ordenado de las filas
-Show_Bar(C1C2_column_sort.values(),"Columnas") ##El promedio ordenado de las columnas
+Show_Bar(C1C2_row.values(),"Filas","Grafico de fila  de multiplicacion matricial") #Grafico del promedio de las filas 
+Show_Bar(C1C2_column.values(),"Columnas","Grafico de columna  de multiplicacion matricial") #Grafico del promedio de las columnas 
+Show_Bar(C1C2_row_sort.values(),"Grafico de Fina ordenada de multiplicacion matricial ") #Grafico del promedio ordenado de las filas
+Show_Bar(C1C2_column_sort.values(),"Columnas","Columnas","Grafico de Columna ordenada de multiplicacion matricial ")) ##El promedio ordenado de las columnas
 
