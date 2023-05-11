@@ -2,9 +2,6 @@ import matplotlib.pyplot as plt
 
 from ejercicio_2 import *
 
-dict_row
-dict_column
-
 def Show_Bar(TValue)
     E = []
     fig, ax = plt.subplots()
