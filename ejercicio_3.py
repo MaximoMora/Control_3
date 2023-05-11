@@ -19,5 +19,5 @@ def Show_Bar(TValue,Xlabael,title):
 
 
 
-Show_Bar(dict_row.values(),"Filas","Promedio Filas")
-Show_Bar(dict_column.values(),"Columnas","Promedio columnas")
+Show_Bar(dict_row.values(),"Fila","Promedio Fila")
+Show_Bar(dict_column.values(),"Coolumna","Promedio Columna")
