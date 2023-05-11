@@ -16,7 +16,7 @@ def average_row(array): #   Creamos una función, esta calculará la media aritm
 
 def average_column(array):
     dict_average_column = {}    #   El resultado se almacenará en un diccionario :dict_average_column:
-    average_column = np.average(result_reverse,axis=0)  #   Usamos numpy.average() con axis=1 para calcular el promedio de las filas
+    average_column = np.average(array,axis=0)  #   Usamos numpy.average() con axis=1 para calcular el promedio de las filas
     count_row, count_column = array.shape
     
     for column in range(count_column): #   El ciclo itera el numero de veces dependiendo de el numero de columnas de la matriz
